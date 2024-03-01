@@ -14,6 +14,9 @@
    <string>Coffe</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTableView" name="table"/>
+   </item>
    <item row="0" column="0" alignment="Qt::AlignHCenter">
     <widget class="QLabel" name="label">
      <property name="sizePolicy">
@@ -35,8 +38,12 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="QTableView" name="table"/>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="addcoffee">
+     <property name="text">
+      <string>Add coffee</string>
+     </property>
+    </widget>
    </item>
   </layout>
  </widget>
